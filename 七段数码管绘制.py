@@ -35,7 +35,7 @@ def drawDate(date):     #获得要输出的数字
             turtle.write("日",font=("Arial",18,"normal"))
         else:
             drawDigit(eval(i))
-def main():             #主函数
+def main():       #主函数
     turtle.setup(800,350,200,200)
     turtle.speed("fastest")
     turtle.penup()
@@ -45,7 +45,7 @@ def main():             #主函数
     #drawDate('20181010')
     turtle.hideturtle()
     turtle.done()
-main()  #调用主函数
+main()       #调用主函数
 
 
 
