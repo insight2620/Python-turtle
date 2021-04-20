@@ -1,8 +1,6 @@
 from turtle import *
- 
-speed(1000)
- 
+speed(fastest)
 for i in range(200):
     fd(2*i)
-    lt(92)
+    lt(92)#左转92度
 done()
