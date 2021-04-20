@@ -71,7 +71,6 @@ fd(-30)
 end_fill()
  
 penup()
- 
 goto(0,5)
 #color("pink")
 #begin_fill()
@@ -90,10 +89,7 @@ pendown()
 fd(130)
  
 seth(30)
- 
 circle(30,50)
- 
- 
 penup()
 goto(-100,-15)
 seth(290)
