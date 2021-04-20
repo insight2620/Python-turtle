@@ -1,4 +1,3 @@
-#KochDrawV2.py
 import turtle
 def koch(size, n):
     if n == 0:
@@ -14,7 +13,7 @@ def main():
     turtle.goto(-200, 100)
     turtle.pendown()
     turtle.pensize(2)
-    level = 3      # 3阶科赫雪花，阶数
+    level = 3 # 阶数，3阶科赫雪花
     koch(400,level)     
     turtle.right(120)
     koch(400,level)
